@@ -1,7 +1,7 @@
 context:
   name: lamindb
-  version: 1.6.2
-  python_min: 3.10
+  version: "1.7.0"
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lamindb-${{ version }}.tar.gz
-  sha256: c16accd6df81c5f0d71987ef452544f5ccc58c3d8b82cb98b2897652456443da
+  sha256: 8d1e57c1a8bb6bbb59942dbfc534f557c1c1bf0b7d118f2c48d3c0a1befc08c1
 
 build:
   number: 0
@@ -23,9 +23,9 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - lamin_utils ==0.14.0
-    - lamin_cli ==1.4.2
-    - lamindb_setup ==1.6.1
+    - lamin_utils ==0.15.0
+    - lamin_cli ==1.5.3
+    - lamindb_setup ==1.7.2
     - pyyaml
     - pyarrow
     - pandera >=0.24.0
