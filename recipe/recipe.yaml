@@ -24,8 +24,8 @@ requirements:
   run:
     - python >=${{ python_min }}
     - lamin_utils ==0.15.0
-    - lamin_cli ==1.6.0
-    - lamindb_setup ==1.8.2
+    - lamin_cli ==1.6.1
+    - lamindb_setup ==1.9.0
     - pyyaml
     - pyarrow
     - pandera >=0.24.0
