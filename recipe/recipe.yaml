@@ -1,6 +1,6 @@
 context:
   name: lamindb
-  version: "1.10.2"
+  version: "1.12.1"
   python_min: '3.10'
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lamindb-${{ version }}.tar.gz
-  sha256: 4400a2442abfcd8ed1091d1f60e59eed94aca1530b087a6835a1097935f67a38
+  sha256: a6bbf61a4770023723aee34a93152bf7f8e3ca8ce0ea4b367c26a2494a727d6e
 
 build:
   number: 0
